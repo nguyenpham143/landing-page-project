@@ -11,7 +11,7 @@ header {
     justify-content: space-between;
     align-items: center;
     background-color: #1F2937;
-    padding: 10px 150px;
+    padding: 10px 300px;
 }
 
 p {
@@ -29,6 +29,24 @@ a {
     text-decoration: none;
 }
 
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+button {
+    padding: 5px 30px;
+    background-color: #3882F6;
+    color: white;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: large;
+}
+
+button.hero-button {
+    border: 2px solid #3882F6;
+}
+
 header ul {
     display: flex;
     gap: 20px;
@@ -41,6 +59,40 @@ header p {
 }
 
 header a {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.hero-section {
+    display: flex;
+    justify-content: space-between;
+    padding: 80px 300px;
+    gap: 30px;
+    background-color: #1F2937;
+}
+
+.hero-section .hero-left {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 500px;
+}
+
+.hero-section .hero-right {
+    width: 550px;
+}
+
+.hero-left button {
+    align-self: flex-start;
+}
+
+.hero-title {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+
+.hero-secondary {
     font-size: 18px;
     color: #E5E7EB;
 }
