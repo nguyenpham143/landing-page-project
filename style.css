@@ -31,7 +31,8 @@ a {
 
 img {
     max-width: 100%;
-    height: auto;
+    height: 100%;
+    object-fit: cover;
 }
 
 button {
@@ -71,14 +72,14 @@ header a {
     background-color: #1F2937;
 }
 
-.hero-section .hero-left {
+.hero-left {
     display: flex;
     flex-direction: column;
     gap: 10px;
     width: 500px;
 }
 
-.hero-section .hero-right {
+.hero-right {
     width: 550px;
 }
 
@@ -95,4 +96,65 @@ header a {
 .hero-secondary {
     font-size: 18px;
     color: #E5E7EB;
+}
+
+.information-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.info-title {
+    padding: 35px 0px;
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0px 300px 80px;
+    gap: 50px;
+}
+
+.card {
+    width: 150px;
+}
+
+.card .description {
+    color: gray;
+    text-align: center;
+    padding: 2px 0px;
+}
+
+.box {
+    width: 150px;
+    height: 150px;
+    border-radius: 5px;
+    border: 3px solid #3882F6;
+}
+
+.quote-section {
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    padding: 100px 350px;
+}
+
+.message {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.quote-section .signature {
+    align-self: flex-end;
+    font-weight: bold;
+}
+
+.bottom {
+    
 }
